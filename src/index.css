@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.modern-quill .ql-editor h3 {
+    color: #1D4ED8;
+    font-size: 22px;
+    font-weight: 600;
+    
+  }
+  .creative-editor .ql-editor h3{
+    color: red;
+    font-size: 22px;
+    font-weight: 600;
+  }
+ /* Add this CSS globally if needed */
+/* .ql-editor {
+  overflow-y: auto;
+} */

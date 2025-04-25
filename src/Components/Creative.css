@@ -1,0 +1,57 @@
+/* Creative.css */
+.preview-section.profile-section {
+  border-left: 5px solid #FFEBEE; /* Light Red */
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+
+.preview-section.experience-section {
+  border-left: 5px solid #E8F5E9; /* Light Green */
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+
+.preview-section.skills-section {
+  border-left: 5px solid #FFF3E0; /* Light Orange */
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+
+.preview-section.education-section {
+  border-left: 5px solid #F3E5F5; /* Light Purple */
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+
+.preview-section.projects-section {
+  border-left: 5px solid #E3F2FD; /* Light Blue */
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+
+.preview-section.declaration-section {
+  border-left: 5px solid #FFFDE7; /* Light Yellow */
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+
+/* Basic styling for headings and lists */
+.creative-template-wrapper .ql-editor h2 {
+  color: red; /* Or your preferred color */
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.creative-template-wrapper .ql-editor h3 {
+  color: red;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.creative-template-wrapper .ql-editor ul {
+  padding-left: 20px;
+}
+
+.creative-template-wrapper .ql-editor li {
+  margin-bottom: 3px;
+}
