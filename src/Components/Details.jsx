@@ -47,7 +47,7 @@ const Details = () => {
 
   const handleGenerateResume = async () => {
     try {
-      const response = await fetch('http://localhost:5000/save-resume', {
+      const response = await fetch('https://resumemaker-backend.onrender.com/save-resume', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

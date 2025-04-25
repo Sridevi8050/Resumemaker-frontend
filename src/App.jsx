@@ -11,7 +11,7 @@ function App() {
   const[message,setMessage]=useState("");
   useEffect(() => {
     // Call the backend API
-    fetch("http://localhost:5000/api/message")
+    fetch("https://resumemaker-backend.onrender.com/api/message")
       .then((res) => res.json())
       .then((data) => setMessage(data.msg))
       .catch((err) => console.error("Error fetching API:", err));

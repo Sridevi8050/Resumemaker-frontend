@@ -15,7 +15,7 @@ const Classic = () => {
   useEffect(() => {
     if (formData && formData.keyPoints) {
       axios
-        .post("http://localhost:5000/categorize", {
+        .post("https://resumemaker-backend.onrender.com/categorize", {
           keyPoints: formData.keyPoints,
         })
         .then((res) => {
