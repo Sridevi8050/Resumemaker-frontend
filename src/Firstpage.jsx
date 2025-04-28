@@ -49,7 +49,7 @@ function Firstpage() {
                         <p className="text-sm">Upload your current resume to edit or enhance it with our tools.</p>
                         <Link to="/editor"
                         onClick={handleUploadClick} 
-                        className="bg-blue-800 text-white rounded-md px-6 py-2 w-fit sm:w-[350px] sm:pl-10">Coming Soon</Link>
+                        className="bg-blue-800 text-white rounded-md px-6 py-2 w-fit sm:w-[350px] sm:pl-10">Get Started</Link>
                    {/* <input
                             type="file"
                             accept=".txt"
