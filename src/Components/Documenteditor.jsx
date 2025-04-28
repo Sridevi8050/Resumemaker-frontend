@@ -99,10 +99,10 @@ const Documenteditor = () => {
 
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen space-y-6 p-4">
+    <div className="flex flex-col items-center justify-center sm:min-h-screen space-y-6 p-4">
       <input type="file" accept=".docx, .txt" onChange={handleFileChange} className="mb-4" />
 
-      <div className="w-full md:w-[800px] md:h-[450px] border p-4 rounded shadow space-y-20">
+      <div className="w-full h-[500px] md:w-[800px] md:h-[450px] border p-4 rounded shadow space-y-32 sm:space-y-20">
         <ReactQuill
           value={content}
           onChange={setContent}
@@ -114,7 +114,7 @@ const Documenteditor = () => {
         />
         <button
         onClick={handleDownload}
-        className="bg-blue-800 hover:bg-blue-700 text-white sm:w-full font-bold py-2 px-4 rounded"
+        className="bg-blue-800 hover:bg-blue-700 text-white w-full sm:w-full font-bold py-2 px-4 rounded"
       >
         Download as PDF
       </button>
