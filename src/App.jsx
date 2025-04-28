@@ -6,6 +6,7 @@ import Details from './Components/Details';
 import Classic from './Components/Classic';
 import Creative from './Components/Creative';
 import Modern from './Components/Modern';
+import Documenteditor from './Components/Documenteditor';
 
 function App() {
   const[message,setMessage]=useState("");
@@ -27,6 +28,7 @@ function App() {
         <Route path="/classic" element={<Classic />} />
         <Route path="/creative" element={<Creative />} />
         <Route path="/detailsback" element={<Details />} />
+        <Route path="/editor" element={<Documenteditor />} />
         
 
       </Routes>

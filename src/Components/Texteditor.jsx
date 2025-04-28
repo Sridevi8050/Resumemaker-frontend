@@ -42,7 +42,7 @@ const Texteditor = ({ value, onChange, template }) => {
   const quillRef = useRef();
   const location = useLocation();
   const formData = location.state; 
-  
+ 
   const handleDownload = () => {
     const editor = document.querySelector(".ql-editor");
     if (!editor) return;
